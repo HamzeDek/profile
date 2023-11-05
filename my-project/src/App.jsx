@@ -11,23 +11,26 @@ const App = () =>{
   return(
     <>
     
-    <div className='bg-blue-950 text-white flex justify-around p-3'>
-    <h1 className=' text-orange-600 capitalize font-bold '> <Link to="Home">hamze dek</Link></h1>
+    <div className='bg-gradient-to-r from-black to-blue-900 p-[12px] text-white flex justify-around p-3'>
+    <h1 className=' text-white capitalize font-bold '> <Link to="Home">hamze dek</Link></h1>
     <div className="menu flex gap-5 cursor-pointer">
     
       <ul>
         <li>
-          <Link to='About'>about</Link>
+          <Link to='About' className='text-[13px] uppercase'>About</Link>
+          <div className='bg-gradient-to-r from-orange-600 via-orange-600 to-blue-0 w-7 h-[2px] mt-[-5px] '></div>
           </li>
       </ul>
       <ul>
         <li>
-          <Link to='Service'>service</Link>
+          <Link to='Service' className='text-[13px] uppercase' >Service</Link>
+          <div className='bg-gradient-to-r from-orange-600 via-orange-600 to-blue-0 w-7 h-[2px] mt-[-5px] '></div>
           </li>
       </ul>
       <ul>
         <li>
-          <Link to='Contect'>contect</Link>
+          <Link to='Contect'  className='text-[13px] uppercase'>Contect</Link>
+          <div className='bg-gradient-to-r from-orange-600 via-orange-600 to-blue-0 w-7 h-[2px] mt-[-5px] '></div>
           </li>
       </ul>
     </div>
