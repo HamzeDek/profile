@@ -16,7 +16,7 @@ const App = () =>{
     <Nav/>
     
     <Service />
-    <About />
+    
     <Contect/>
     </>
   )

@@ -15,7 +15,7 @@ const home = () => {
       send 
     </button>
       </div>
-      <img src={hamze} alt="" className='w-[250px] mt-5 ml-[200px] rounded-lg shadow-md shadow-black ' />
+      <img src={hamze} alt="" className='w-[250px] mt-5 ml-[200px] ' />
     </div>
     </>
   )
