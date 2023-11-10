@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './home'
 import About from './about'
-import Contect from './contect'
+import Contect from './Contect'
 import Service from './Service'
 
 import {Routes, Route,Link} from 'react-router-dom'
