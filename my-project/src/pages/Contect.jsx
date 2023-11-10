@@ -8,11 +8,11 @@ import icon5 from '../../public/git.png'
 function contect() {
   return (
     <>
-    <div className="contact bg-gradient-to-r from-blue-900 via-black to-black pb-[24px] flex item-center justify-center">
+    <div className="contact bg-gradient-to-r from-blue-900 via-black to-black pb-[21px] flex item-center justify-center">
      
       <div className="form">
         
-        <form className='bg-gray-300 bg-opacity-60  flex flex-col gap-5 p-5 w-[350px] mt-[40px]'> 
+        <form className='bg-gray-300 bg-opacity-60  flex flex-col gap-5 p-3 w-[350px] mt-[40px]'> 
          <h1 className='text-3xl font-bold capitalize'>contact us</h1>
           <input type="text" placeholder='Your Name 'className='' required />
           <input type="email" placeholder='Enter Your Email'className='' required/>

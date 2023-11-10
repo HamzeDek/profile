@@ -4,7 +4,7 @@ import hamze from '../../public/img3.png'
 const home = () => {
   return (
     <>
-     <div className="dashboard flex bg-gradient-to-r from-blue-900 via-black to-black p-[10px]">
+     <div className="dashboard flex bg-gradient-to-r from-blue-900 via-black to-black p-[4.9px]">
       
      <div className="name ml-10 mt-[150px]"> 
      <h1 className='capitalize  text-4xl text-orange-600  font-bold '> iam hamze dek</h1> 
