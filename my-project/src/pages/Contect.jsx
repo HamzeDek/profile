@@ -5,7 +5,7 @@ import icon3 from '../../public/facebook.png'
 import icon4 from '../../public/whatsapp.png'
 import icon5 from '../../public/git.png'
 
-function contect() {
+function Contect() {
   return (
     <>
     <div className="contact bg-gradient-to-r from-blue-900 via-black to-black pb-[21px] flex item-center justify-center">
@@ -55,4 +55,4 @@ function contect() {
   )
 }
 
-export default contect
+export default Contect
